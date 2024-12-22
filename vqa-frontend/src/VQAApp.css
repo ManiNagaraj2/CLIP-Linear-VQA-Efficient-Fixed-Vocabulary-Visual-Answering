@@ -1,0 +1,48 @@
+/* src/VQAApp.css */
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px; /* Perfect width */
+    width: 95%; /* Responsive for smaller screens */
+    margin: 40px auto; /* Center the container */
+    padding: 50px; /* Increase vertical padding to make it lengthier */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 50px; /* Increase inner padding for length */
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2.2rem; /* Slightly larger font size for header */
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px; /* Add more spacing below the header */
+}
+
+.form-label {
+    font-size: 1.3rem; /* Slightly larger font size for labels */
+}
+
+input.form-control {
+    font-size: 1.1rem; /* Slightly larger input font size */
+    padding: 12px; /* Slightly larger padding */
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 1.3rem; /* Slightly larger button font size */
+    padding: 14px; /* Slightly larger padding */
+}
+
+.alert {
+    font-size: 1.2rem; /* Slightly larger alert font size */
+    margin-top: 30px; /* Increase spacing between answer and card */
+}
