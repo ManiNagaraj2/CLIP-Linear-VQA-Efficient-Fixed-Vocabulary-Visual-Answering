@@ -94,8 +94,12 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
  ### Input Features:
  - CLIP visual and text embeddings.
  ### Architecture:
- - Two linear layers with dropout and layer normalization.
- - Separate branches for answer type prediction, answer mask generation, and answerability scoring.
+ We will follow the architecture mentioned in [Less Is More](https://arxiv.org/abs/2206.05281) paper. The architecture goes as follows:
+
+- Each Linear layer consist of Layer Norm followed by Drop out with probability of 0.5 followed by fully connected layer of size 512.
+- We will have Cross Entropy Loss for answer and answer type
+- We will use Binary Cross Entropy Loss for answerability
+
  ### Output:
  - Multi-class classification for answer prediction and answer type.
 
