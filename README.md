@@ -70,6 +70,8 @@ The web application consists of:
    ```bash
    npm start
 
+ ---  
+
 ## Usage
 1. Launch the backend (http://127.0.0.1:5000) and the frontend (http://localhost:3000)
 2. Upload an image and type a question in the web interface.
