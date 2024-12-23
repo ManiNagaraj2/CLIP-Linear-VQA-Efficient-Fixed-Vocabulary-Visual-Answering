@@ -1,4 +1,5 @@
-# Visual Question Answering (VQA) Web Application
+# CLIP-Linear VQA: Efficient Fixed-Vocabulary Visual Answering
+
 
 ## Overview
 
