@@ -121,7 +121,7 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
 
 ---
 
-### Results
+## Results
 
 <table align="center">
     <tr>
@@ -129,11 +129,6 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
         <th>Training</th>
         <th>Validation</th>
     </tr>
-  <tr>
-    <td>VizWiz Accuracy</td>
-    <td>80.4%</td>
-    <td>61.5%</td>
-  </tr>
   <tr>
     <td>Accuracy</td>
     <td>76.4%</td>
