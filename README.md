@@ -121,6 +121,13 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
 
 ---
 
+## User Interface 
+<p align="center">
+  <img src="Images/user_interface.png" alt="Web Application" width="500"/>
+</p>
+
+---
+
 ## Results
 
 <table align="center">
