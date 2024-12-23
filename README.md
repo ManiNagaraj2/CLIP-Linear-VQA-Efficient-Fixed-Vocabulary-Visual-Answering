@@ -70,16 +70,16 @@ The web application consists of:
    ```bash
    npm start
 
-### Usage
+## Usage
 1. Launch the backend (http://127.0.0.1:5000) and the frontend (http://localhost:3000)
 2. Upload an image and type a question in the web interface.
 3. Click "Get Answer" to receive the response.
 4. Optional) Click the 🔊 button to hear the answer.
 
-### Model Details
+## Model Details
 The model architecture combines CLIP embeddings with a multi-layer neural network:
 - Input Features: CLIP visual and text embeddings.
- ## Architecture:
+ ### Architecture:
  - Two linear layers with dropout and layer normalization.
  - Separate branches for answer type prediction, answer mask generation, and answerability scoring.
- ## Output: Multi-class classification for answer prediction and answer type.
+ ### Output: Multi-class classification for answer prediction and answer type.
