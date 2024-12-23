@@ -25,6 +25,11 @@ The web application consists of:
 
 ---
 
+## Our Approach
+Our Visual Question Answering (VQA) solution is implemented using a fixed vocabulary approach. This means that the model is not generative, but rather selects the answer from a pre-defined set of possible answers which is discussed in the [Less is More research](https://arxiv.org/abs/2206.05281). This approach is more suitable for our use case, as it allows us to control the vocabulary and ensure that the model only outputs answers that are relevant to the question. In addition to that, it requires a lot less computing power than any other solution. We use the [CLIP](https://openai.com/blog/clip/) model to extract features from the image and the question, and then feed them into a linear layer to predict the answer. We use the [VizWiz](https://vizwiz.org/tasks-and-datasets/vqa/) dataset for training and evaluation. We use the [PyTorch](https://pytorch.org/) library for building and training the model. We have also used [Flask](https://flask.palletsprojects.com/en/2.3.x/) to create a web application that allows you to interact with our model and see its capabilities in action.
+
+---
+
 ## File Structure
 
 ### Backend
