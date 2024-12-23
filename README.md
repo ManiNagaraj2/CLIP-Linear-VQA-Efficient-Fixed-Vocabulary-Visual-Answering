@@ -46,3 +46,13 @@ The web application consists of:
    ```bash
    git clone https://github.com/your-username/vqa-webapp.git
    cd vqa-webapp/backend
+
+2. Install Python dependencies:   
+    ```bash
+    pip install -r requirements.txt
+
+3. Download the trained model and place it in the Saved_Models/ directory
+
+4. Run the Flask server:
+   ```bash
+   python app.py   
