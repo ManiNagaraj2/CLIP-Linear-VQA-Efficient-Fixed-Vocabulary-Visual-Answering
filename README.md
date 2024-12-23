@@ -9,6 +9,9 @@ The web application consists of:
 - **Backend:** Built with Flask, hosting the VQA model and handling predictions.
 - **Frontend:** Built with React, providing an intuitive user interface for uploading images, asking questions, and getting answers.
 
+<p align="center">
+  <img src="Images/vizwiz_example.png" alt="VizWiz Example" width="500"/>
+</p>
 ---
 
 ## Features
