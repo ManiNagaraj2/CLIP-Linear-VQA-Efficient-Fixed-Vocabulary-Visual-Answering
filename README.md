@@ -10,7 +10,7 @@ The web application consists of:
 - **Frontend:** Built with React, providing an intuitive user interface for uploading images, asking questions, and getting answers.
 
 <p align="center">
-  <img src="Images/vizwiz_example.png" alt="VizWiz Example" width="500"/>
+  <img src="Result/vizwiz_example.png" alt="VizWiz Example" width="500"/>
 </p>
 ---
 
