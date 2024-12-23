@@ -8,8 +8,6 @@ The web application consists of:
 - **Backend:** Built with Flask, hosting the VQA model and handling predictions.
 - **Frontend:** Built with React, providing an intuitive user interface for uploading images, asking questions, and getting answers.
 
-![Demo Screenshot](#) <!-- Add a link to the demo screenshot if available -->
-
 ---
 
 ## Features
