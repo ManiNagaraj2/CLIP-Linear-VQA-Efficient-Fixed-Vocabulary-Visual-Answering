@@ -164,6 +164,18 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
   </tr>
 </table>
 
+---
+
+## References
+
+- [Less Is More: Linear Layers on CLIP Features as Powerful VizWiz Model](https://arxiv.org/abs/2206.05281)
+
+- [CLIP: Connecting text and images](https://openai.com/research/clip)
+
+- [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+
+---
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
