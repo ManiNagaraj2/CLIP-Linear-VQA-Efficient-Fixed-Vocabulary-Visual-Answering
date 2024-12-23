@@ -78,6 +78,8 @@ The web application consists of:
 3. Click "Get Answer" to receive the response.
 4. Optional) Click the 🔊 button to hear the answer.
 
+---   
+
 ## Model Details
 The model architecture combines CLIP embeddings with a multi-layer neural network:
  ### Input Features:
@@ -88,6 +90,8 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
  ### Output:
  - Multi-class classification for answer prediction and answer type.
 
+ ---  
+
 ## Example Workflow
 1. ### Input: 
 - Image: A photo of a cat sitting on a sofa. 
@@ -97,3 +101,12 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
 - Answer: "Cat"
 - Answer Type: "Object"
 - Answerability: 0.95 (High confidence)
+
+---
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+
