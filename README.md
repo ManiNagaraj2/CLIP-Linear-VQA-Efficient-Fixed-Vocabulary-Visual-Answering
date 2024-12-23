@@ -79,9 +79,19 @@ The web application consists of:
 ## Model Details
 The model architecture combines CLIP embeddings with a multi-layer neural network:
  ### Input Features:
- -CLIP visual and text embeddings.
+ - CLIP visual and text embeddings.
  ### Architecture:
  - Two linear layers with dropout and layer normalization.
  - Separate branches for answer type prediction, answer mask generation, and answerability scoring.
  ### Output:
  - Multi-class classification for answer prediction and answer type.
+
+## Example Workflow
+1. ### Input: 
+- Image: A photo of a cat sitting on a sofa. 
+- Question: "What is the object on the sofa?"
+
+2. ### Output:
+- Answer: "Cat"
+- Answer Type: "Object"
+- Answerability: 0.95 (High confidence)
