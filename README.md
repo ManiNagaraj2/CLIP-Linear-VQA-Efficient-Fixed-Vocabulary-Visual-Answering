@@ -51,7 +51,7 @@ The web application consists of:
     ```bash
     pip install -r requirements.txt
 
-3. Download the trained model and place it in the Saved_Models/ directory
+3. Download the trained model and place it in the `Saved_Models/` directory
 
 4. Run the Flask server:
    ```bash
