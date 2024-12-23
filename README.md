@@ -10,7 +10,7 @@ The web application consists of:
 - **Frontend:** Built with React, providing an intuitive user interface for uploading images, asking questions, and getting answers.
 
 <p align="center">
-  <img src="Result/vizwiz_example.png" alt="VizWiz Example" width="500"/>
+  <img src="Images/vizwiz_example.png" alt="VizWiz Example" width="500"/>
 </p>
 ---
 
@@ -98,6 +98,10 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
  - Separate branches for answer type prediction, answer mask generation, and answerability scoring.
  ### Output:
  - Multi-class classification for answer prediction and answer type.
+
+ <p align="center">
+   <img src="Images/model_architecture.png" alt="Training Losses" width="500"/>
+ </p>
 
  ---  
 
