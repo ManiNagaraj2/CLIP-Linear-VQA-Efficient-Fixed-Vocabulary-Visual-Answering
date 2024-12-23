@@ -30,6 +30,22 @@ Our Visual Question Answering (VQA) solution is implemented using a fixed vocabu
 
 ---
 
+## Dataset
+For this project, we used the [VizWiz](https://vizwiz.org/tasks-and-datasets/vqa/) dataset. It is a large-scale visual question answering dataset that contains 
+- 20,523 training image/question pairs
+- 205,230 training answer/answer confidence pairs
+- 4,319 validation image/question pairs
+- 43,190 validation answer/answer confidence pairs
+- 8,000 test image/question pairs
+
+Dataset files are as follows:
+- Images: training, validation, and test sets
+- Annotations: Visual questions are split into three JSON files: train, validation, and test. Answers are publicly shared for the train and validation splits and hidden for the test split.
+
+- The dataset is available on [Kaggle](https://www.kaggle.com/datasets/lhanhsin/vizwiz)
+
+---
+
 ## File Structure
 
 ### Backend
