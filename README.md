@@ -176,8 +176,15 @@ The model architecture combines CLIP embeddings with a multi-layer neural networ
 
 ---
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+## Contributors
+
+- [Mani Nagaraj](https://github.com/ManiNagaraj2)
+
+- [Bhanu Sri Harsha](https://github.com/NoobPeen)
+
+- [Sam Tikikas](https://github.com/SamTikikas)
+
+- [Aditya Singireddy](https://github.com/Atrix05)
 
 ---
 
